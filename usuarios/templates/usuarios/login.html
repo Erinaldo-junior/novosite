@@ -9,7 +9,7 @@
 <body>
 
     <div class="container">
-        <form action="{% url 'login'}" method = "POST"> 
+        <form action="{% url 'login' %}" method = "POST"> 
             {% csrf_token %}
             <div class="imput-email">
                 <label for ="useremail">E-mail</label>
